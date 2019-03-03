@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+{% block main %}
+    <!-- Custom Tests provide conditional statements
+         http://jinja.pocoo.org/docs/2.10/api/
+    <!-- Has the quote form been sent, with quote=quote? -->
+    {% if quote %}
+            <p>
+                One share of {{ quote.name }} ({{ quote.symbol }}) costs {{ quote.price }}
+            </p>
+    <!-- If quote!=quote, then provide the form -->
+    {% else %}
+        <form action="{{ url_for('quote') }}" method="post">
+            <div class="form-group">
+                    <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="Symbol" type="text"/>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-default" type="submit">Search</button>
+            </div>
+        </form>
+    {% endif %}
+{% endblock %}
