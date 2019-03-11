@@ -8,3 +8,4 @@
 
 ### Credit
 Thanks to jacebrowning for creating [memgen](https://github.com/jacebrowning/memegen#special-characters), "an API to programatically generate memes based solely on requested URLs."
+In this case it is used to deliver HTTP status codes.
