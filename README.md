@@ -1,5 +1,5 @@
 # Stock-Site
-Users are able to create a login account which saves a transaction history of every "purchase and sale" of stock. The site performs a real-time lookup of the stock price.
+Users are able to create a login account which saves a transaction history of every "purchase and sale" of stock. The site performs a real-time lookup of the stock price using a free Alpha Vantage Api.
 
 ### Improvements/Lessons to take for next project.
 1. Rewrite source code to follow [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
