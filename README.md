@@ -8,4 +8,4 @@ Users are able to create a login account which saves a transaction history of ev
 
 ### Credit
 Thanks to jacebrowning for creating [memgen](https://github.com/jacebrowning/memegen#special-characters), "an API to programatically generate memes based solely on requested URLs."
-In this case it is used to memes along with HTTP status codes when the site encounters an error.
+In this case it is used to generate memes along with HTTP status pages when the site encounters an error.
